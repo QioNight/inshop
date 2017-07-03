@@ -1,0 +1,200 @@
+.header_main>p {
+	font-size: 24px;
+	padding-top: 48px;
+	margin-left: 280px;
+}
+
+#header {
+	border-bottom: 0;
+}
+
+#main {
+	color: #878787;
+}
+
+#main>div:nth-of-type(1) {
+	border-bottom: 2px #e6e6e6 solid;
+	text-align: center;
+}
+
+.reg_nav>ul>li{
+	display: inline-block;
+	font-size: 18px;
+	margin: 0px 90px;
+	padding-bottom: 10px;
+}
+
+.reg_nav span {
+	padding: 0px 6px;
+	background: #878787;
+	border-radius: 50%;
+	font-size: 14px;
+	color: #fff;
+}
+
+.reg_on {
+	font-weight: bold;
+	border-bottom: 2px red solid;
+	color: #000;
+}
+
+.reg_on>span {
+	background: red;
+}
+
+#main>form>div {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#main>form>div>p {
+	margin: 10px 230px;
+}
+
+#main>form>div>span>input {
+	width: 400px;
+	height: 60px;
+	background: red;
+	color: #fff;
+	font-size: 20px;
+	margin: 10px 230px;
+	cursor: pointer;
+}
+
+.inputs {
+	padding: 10px 0px 10px 230px;
+	position: relative;
+}
+
+.inputs>input{
+	width: 294px;
+	height: 46px;
+	border: 1px #e6e6e6 solid;
+	padding: 0px 140px 0px 100px;
+}
+
+.inputs>p {
+	position: absolute;
+	top: 22px;
+	left: 234px;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+}
+
+.inputs>p>span {
+	font-weight: normal;
+	margin-left: 50px;
+}
+
+.inputs>img {
+	position: absolute;
+	right: 416px;
+	top: 12px;
+}
+
+#btn_test {
+	position: absolute;
+	right: 416px;
+	padding: 0;
+	top: 12px;
+	width: 114px;
+	height: 44px;
+	cursor: pointer;
+}
+
+#part2, #part3 {
+	width: 600px;
+	height: 140px;
+	margin: 80px auto;
+	padding: 20px;
+	text-align: center;
+	border: 1px #ccc solid;
+	display: none;
+}
+
+#part2>img {
+	vertical-align: middle;
+}
+
+#part2>span, #part3>span {
+	font-size: 29px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#part2>input {
+	width: 140px;
+	height: 50px;
+	margin: 10px;
+	background: red;
+	color: #fff;
+	cursor: pointer;
+}
+
+#ment_bg{
+	width: 100%; 
+	height:100%; 
+	background: #333; 
+	position: fixed;
+	opacity: .6; 
+	top: 0px; 
+	left: 0px;
+	z-index: 997;
+	display: none;
+}
+
+#ment {
+	width: 800px;
+	height: 500px;
+	border: 5px #ccc solid;
+	background: #fff;
+	position: fixed;
+	top: 10%;
+	left: 15%;
+	z-index: 1000;
+	display: none;
+	text-align: center;
+}
+
+#ment>div {
+	padding: 10px;
+	overflow-y: scroll;
+	height: 400px;
+	text-align: left;
+}
+
+#ment>p {
+	font-size: 18px;
+	font-weight: bold;
+	background: #f7f7f7;
+	position: relative;
+	text-align: left;
+}
+
+#ment>p>span {
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+}
+
+#ment h3 {
+	text-align: center;
+}
+
+dt,dd {
+	line-height: 2em;
+}
+
+dt,dd>span {
+	font-weight: bold;
+}
+
+#ment button {
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	background: red;
+	color: #fff;
+	cursor: pointer;
+}

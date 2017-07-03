@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>麦软网</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<script src="js/index.js"></script>
+		<script src="js/login.js"></script>
+		
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="header_top">
+					<div class="top_left">
+						<a href="javascript:;" id="user">您好，请登录！</a>
+						<a href="register.html">快速注册</a>
+					</div>
+					<div class="top_right">
+						<a href="javascript:;" onclick="login()">已经购买</a>
+						<a href="#">购物车</a>
+						<a href="javascript:;" onclick="login()">我的收藏夹</a>
+					</div>
+				</div>
+				<div class="header_main">
+					<div class="logo"><a href="mairuan_index.html"><img src="img/logo.png"/></a></div>
+					<div class="search">
+						<input type="text" />
+						<input type="submit" value="搜索"/>
+						<p>
+							<span>热门搜索：</span>
+							<a href="#">CorelDraw</a>
+							<a href="#">Mindmanager</a>
+							<a href="#">会声会影</a>
+							<a href="#">Xmind</a>
+							<a href="#">MathType</a>
+						</p>
+					</div>
+					<div><a href="register.html"><img src="img/reg_tr.png" alt="" /></a></div>
+				</div>
+				<div class="nav">
+					<ul>
+						<li class="nav_tltie"><a href="#">全部软件</a>
+							<dl class="nav_left">
+								<dt><a href="#">图形、图像、影音</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="imageprocessing.html">图像处理</a></span></li>
+													<li><a href="imageprocessing.html">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												<ul>
+													<li><a href="#"><img src="img/1-1.png" alt="" />Bandicut</a></li>
+													<li><a href="#"><img src="img/1-2.png" alt="" />PhotoBulk</a></li>
+													<li><a href="#"><img src="img/1-3.png" alt="" />PicPick</a></li>
+													<li><a href="#"><img src="img/1-4.png" alt="" />Vectorworks</a></li>
+													<li><a href="#"><img src="img/1-5.png" alt="" />Xee</a></li>
+													<li><a href="#"><img src="img/1-6.png" alt="" />Super Refocus</a></li>
+													<li><a href="#"><img src="img/1-7.png" alt="" />PhotoStitcher</a></li>
+													<li><a href="#"><img src="img/1-8.png" alt="" />InPaint</a></li>
+													<li><a href="#"><img src="img/1-9.png" alt="" />Icon Cast</a></li>
+													<li><a href="#"><img src="img/1-10.png" alt="" />Ashampoo Photo</a></li>
+													<li><a href="#"><img src="img/1-11.png" alt="" />Open Canvas</a></li>
+													<li><a href="#"><img src="img/1-12.png" alt="" />Focus</a></li>
+													<li><a href="#"><img src="img/1-13.png" alt="" />FX Photo Studio</a></li>
+													<li><a href="#"><img src="img/1-14.png" alt="" />Intensify</a></li>
+													<li><a href="#"><img src="img/1-15.png" alt="" />Noiseless</a></li>
+													<li><a href="#"><img src="img/1-16.png" alt="" />Snapheal</a></li>
+													<li><a href="#"><img src="img/1-17.png" alt="" />Tonality</a></li>
+													<li><a href="#"><img src="img/1-18.png" alt="" />CorelDRAW</a></li>
+													<li><a href="#"><img src="img/1-19.png" alt="" />IconWorkshop</a></li>
+													<li><a href="#"><img src="img/1-20.png" alt="" />证照之星</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">视频编辑</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												<ul>
+													<li><a href="#"><img src="img/1-21.png" alt="" />Vegas DVD Architect</a></li>
+													<li><a href="#"><img src="img/1-22.png" alt="" />Vegas Movie Studio</a></li>
+													<li><a href="#"><img src="img/1-23.png" alt="" />Ashampoo Snap 9</a></li>
+													<li><a href="#"><img src="img/1-24.png" alt="" />Ashampoo Movie</a></li>
+													<li><a href="#"><img src="img/1-25.png" alt="" />AVS Video Editor</a></li>
+													<li><a href="#"><img src="img/1-26.png" alt="" />Snagit</a></li>
+													<li><a href="#"><img src="img/1-27.png" alt="" />Camtasia Studio</a></li>
+													<li><a href="#"><img src="img/1-28.png" alt="" />ScreenFlow</a></li>
+													<li><a href="#"><img src="img/1-29.png" alt="" />威力导演</a></li>
+													<li><a href="#"><img src="img/1-30.png" alt="" />Vegas</a></li>
+													<li><a href="#"><img src="img/1-31.png" alt="" />EDIUS</a></li>
+													<li><a href="#"><img src="img/1-32.jpg" alt="" />会声会影</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">3D渲染</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												<ul>
+													<li><a href="#"><img src="img/1-33.png" alt="" />MODO</a></li>
+													<li><a href="#"><img src="img/1-34.png" alt="" />Aurora HDR Pro</a></li>
+													<li><a href="#"><img src="img/1-35.png" alt="" />Rhino</a></li>
+													<li><a href="#"><img src="img/1-36.png" alt="" />Cinema 4D</a></li>
+													<li><a href="#"><img src="img/1-37.png" alt="" />Keyshot</a></li>
+													<li><a href="#"><img src="img/1-38.png" alt="" />ZBrush</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">影音工具</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												<ul>
+													<li><a href="#"><img src="img/1-39.png" alt="" />Softorino Converter</a></li>
+													<li><a href="#"><img src="img/1-40.png" alt="" />Guitar Pro</a></li>
+													<li><a href="#"><img src="img/1-41.png" alt="" />X-mirage</a></li>
+													<li><a href="#"><img src="img/1-42.png" alt="" />SWF.max Player</a></li>
+													<li><a href="#"><img src="img/1-43.png" alt="" />Internet Download</a></li>
+													<li><a href="#"><img src="img/1-44.png" alt="" />Flip4Mac</a></li>
+													<li><a href="#"><img src="img/1-45.png" alt="" />Resolume Arena</a></li>
+													<li><a href="#"><img src="img/1-46.png" alt="" />Elmedia Player PRO</a></li>
+													<li><a href="#"><img src="img/1-47.png" alt="" />Downie</a></li>
+													<li><a href="#"><img src="img/1-48.png" alt="" />PowerDVD</a></li>
+													<li><a href="#"><img src="img/1-49.png" alt="" />FL Studio</a></li>
+													<li><a href="#"><img src="img/1-50.png" alt="" />闪客精灵</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</dt>
+								<dt><a href="#">办公应用</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">思维导图</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												<ul>
+													<li><a href="#"><img src="img/2-1.png" alt="" />ConceptDraw</a></li>
+													<li><a href="#"><img src="img/2-2.png" alt="" />iMindMap</a></li>
+													<li><a href="#"><img src="img/2-3.png" alt="" />MindMapper</a></li>
+													<li><a href="#"><img src="img/2-4.png" alt="" />XMind</a></li>
+													<li><a href="#"><img src="img/2-5.png" alt="" />MindManager</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">条码设计</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">PDF工具</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">OA办公</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+									</div>
+								</dt>
+								<dt><a href="#">教育教学</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">数学软件</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">化学软件</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">科学绘图</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+									</div>
+								</dt>
+								<dt><a href="#">Mac必备</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">数据恢复</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">清理工具</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">读写虚拟</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">实用软件</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+									</div>
+								</dt>
+								<dt><a href="#">程序开发</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">文件同步</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">终端管理</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">数据管理</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+									</div>
+								</dt>
+								<dt><a href="#">系统工具</a>
+									<div id="nav_hidden">
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">系统还原</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">数据恢复</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+										<div class="n_h clearfloat">
+											<div class="n_h_1">
+												<ul>
+													<li><span><a href="#">系统安全</a></span></li>
+													<li><a href="#">更多&gt;</a></li>
+												</ul>
+											</div>
+											<div class="n_h_2">
+												
+											</div>
+										</div>
+									</div>
+								</dt>
+							</dl>	
+						</li>
+						<li><a href="timed.html">限时秒杀</a></li>
+						<li><a href="Preferences.html">本周特惠</a></li>
+						<li><a href="#">教育专场</a></li>
+						<li><a href="#">企业专场</a></li>
+						<li><a href="#">麦软社区</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="main">
+				<div id="banner">
+					<ul id="ban_img" style="width: 9600px;">
+						<li style="display: block;"><a href="#"><img src="img/201702101416_8450.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/201702101122_1362.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/201703091712_9460.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/201703130908_5156.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/201703211353_5896.jpg" alt="" /></a></li>
+					</ul>
+					<ol id="ban_num">
+						<li class="active">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ol>
+				</div>
+				<div class="pro_title clearfloat">
+					<h2>常用软件</h2>
+					<h2>热卖软件</h2>
+				</div>
+				<div class="produce clearfloat">
+					<div class="pro_l">
+						<div style="height: 284px;">
+							<a href="Parallels_Desktop.html"><img src="img/201703130909_2413.jpg" alt="" /></a>
+						</div>
+						<div style="height: 284px;">
+							<a href="#"><img src="img/201703131737_6634.jpg" alt="" /></a>
+						</div>
+						<div>
+							<a href="#"><img src="img/201703030952_8230.jpg" alt="" /></a>
+						</div>
+						<div>
+							<a href="#"><img src="img/201611150922_7328.png" alt="" /></a>
+						</div>
+						<div>
+							<a href="#"><img src="img/201612161319_7413.jpg" alt="" /></a>
+						</div>
+					</div>
+					<div class="pro_r">
+						<ul id="pro_hot" class="clearfloat">
+							<li class="on-click">本周热卖</li>
+							<li>本月热卖</li>
+						</ul>
+						<ul id="pro_ware">
+							<li style="display: block;">
+								<div>
+									<a href="#"><img src="img/201608101503_4521.png" alt="" /></a>
+									<div class="price">
+										<div><span>3折</span></div>
+										<p>Cleanmymac<br />
+										<span>￥149.00</span></p>
+									</div>
+									<a href="#"><img src="img/201608121012_3582.png" alt="" /></a>
+									<div class="price">
+										<div><span>3折</span></div>
+										<p>NTFS for Mac<br />
+										<span>￥139.00</span></p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a href="#"><img src="img/201606241629_9040.png" alt="" /></a>
+									<div class="price">
+										<div><span>4折</span></div>
+										<p>MindManager<br />
+										<span>￥1800.00</span></p>
+									</div>
+									<a href="#"><img src="img/201611031135_3154.png" alt="" /></a>
+									<div class="price">
+										<div><span>5折</span></div>
+										<p>XMind<br />
+										<span>￥499.00</span></p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="ad"><a href="#"><img src="img/201612120940_8736.jpg" alt="" /></a></div>
+				
+				<div class="hobby clearfloat">
+					<div><h2>猜你喜欢</h2></div>
+					<div class="h_nav">
+						<ul id="h_nav_js">
+							<li class="nav_on">图形、图像、影音</li>
+							<li>办公应用</li>
+							<li>教育教学</li>
+							<li>Mac必备</li>
+							<li>程序开发</li>
+							<li>系统工具</li>
+						</ul>
+						<span><a href="#">换一批</a></span>
+					</div>
+					<div>
+						<ul id="h_wrap_js">
+							<li style="display: block;">	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/201606241625_2921.png" alt="" /></a>	
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">会声会影X8 盒装 <br />
+				                                                                                    视频剪辑编辑工具 视频制作</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702031618_7359.png" alt="" /></a>
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                      		<a href="#">Vectorworks<br />
+				                            Designer（设计</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/hobby2-1.png" alt="" /></a>	
+										<p>
+											<span>￥39.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">Xee 下载版 Mac 图片浏览器和查看器 图片编辑</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/hobby2-2.png" alt="" /></a>
+										<p>
+											<span>￥169.00</span> &nbsp;&nbsp;销量：6<br />
+				                      		<a href="#">Elmedia Player 媒体播放器软件 flash视频播放</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/201606241625_2921.png" alt="" /></a>	
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">会声会影X8 盒装 <br />
+				                                                                                    视频剪辑编辑工具 视频制作</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702031618_7359.png" alt="" /></a>
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                      		<a href="#">Vectorworks<br />
+				                            Designer（设计</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/201606241625_2921.png" alt="" /></a>	
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">会声会影X8 盒装 <br />
+				                                                                                    视频剪辑编辑工具 视频制作</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702031618_7359.png" alt="" /></a>
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                      		<a href="#">Vectorworks<br />
+				                            Designer（设计</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/201606241625_2921.png" alt="" /></a>	
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">会声会影X8 盒装 <br />
+				                                                                                    视频剪辑编辑工具 视频制作</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702031618_7359.png" alt="" /></a>
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                      		<a href="#">Vectorworks<br />
+				                            Designer（设计</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>	
+								<div class="h_wrap clearfloat">
+									<div>
+										<a href="#"><img src="img/201606241625_2921.png" alt="" /></a>	
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                            <a href="#">会声会影X8 盒装 <br />
+				                                                                                    视频剪辑编辑工具 视频制作</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702031618_7359.png" alt="" /></a>
+										<p>
+											<span>￥650.00</span> &nbsp;&nbsp;销量：10<br />
+				                      		<a href="#">Vectorworks<br />
+				                            Designer（设计</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201702081103_6967.png" alt="" /></a>
+										<p>
+											<span>￥135.00</span> &nbsp;&nbsp;销量：10<br />
+											<a href="#">X-mirage Mac 下载版<br />
+											多设备屏幕镜像录制到</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201611141812_9929.png" alt="" /></a>
+										<p>
+											<span>￥700.00</span> &nbsp;&nbsp;销量：12<br />
+											<a href="#">威力导演 15 极致版 视<br />
+											频编辑软件 视频剪辑软</a>
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201608041024_9894.png" alt="" /></a>
+										<p>
+											<span>￥489.00</span> &nbsp;&nbsp;销量：1<br />
+											<a href="#">视频编辑 媒体剪辑软件 <br />
+											非线性编辑软件 AVS</a> 
+										</p>
+									</div>
+									<div>
+										<a href="#"><img src="img/201703291353_3579.png" alt="" /></a>
+										<p>
+											<span>￥38999.00</span> &nbsp;&nbsp;销量：2<br />
+											<a href="#">Cinema 4D Studio<br />
+											Release 18 3D动画渲染</a>
+										</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div id="footer" >
+				<div class="clearfloat">
+					<div class="f_logo"><img src="img/foot_logo.png" alt="" /></div>
+					<div class="f_nav clearfloat">
+						<ul>
+							<li>购物指南</li>
+								<dl>
+									<dt><a href="#">全场包邮</a></dt>
+									<dt><a href="#">交易条款</a></dt>
+									<dt><a href="#">售后服务</a></dt>
+								</dl>
+						</ul>
+						<ul>
+							<li>服务中心</li>
+								<dl>
+									<dt><a href="#">隐私声明</a></dt>
+									<dt><a href="#">注册协议</a></dt>
+									<dt><a href="#">联系客服</a></dt>
+								</dl>
+						</ul>
+						<ul>
+							<li>关于麦软</li>
+								<dl>
+									<dt><a href="#">麦软简介</a></dt>
+									<dt><a href="#">联系我们</a></dt>
+								</dl>	
+						</ul>
+					</div>	
+					<div class="f_code">
+						<img src="img/erweima.png" alt="" />
+						<p>扫一扫，关注麦软微信平台</p>
+					</div>
+				</div>
+				<hr class="clearfloat"/>
+				<div class="f_bottom">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">思维导图</a></li>
+						<li><a href="#">Mac必备</a></li>
+						<li><a href="#">视频剪辑</a></li>
+						<li><a href="#">办公自动化</a></li>
+						<li><a href="#">文件管理恢复</a></li>
+						<li><a href="#">麦软社区</a></li>
+					</ul>
+					特聘法律顾问：江苏政纬律师事务所 宋红波<br />
+					版权所有 Copyright &copy;2015 麦软网 苏州苏杰思网络有限公司旗下网站 <a href="#">苏ICP备14036386号-30</a> 版权说明<br />
+					<img src="img/f1.png" alt="" />
+					<img src="img/f2.jpg" alt="" />
+					<img src="img/f3.png" alt="" />
+					<img src="img/f4.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		<div id="login_bg" style="display: none;"></div>
+		<div id="login" style="display: none;">
+			<img src="img/login_logo.png" alt="" />	
+			<h1>账号登陆</h1>
+			<form action="#" id="login_form">
+				<div>
+					<span>登录账户：</span>
+					<input type="text" placeholder="请输入用户名 或 手机号码 或 邮箱"/>
+				</div>
+				<div>
+					<span>登录密码：</span>
+					<input type="password" placeholder="请输入密码"/>
+				</div>
+				<input type="submit" value="立即登录"/><br />
+				<a href="register.html">注册麦软账号</a>| <a href="#">忘记密码？</a>
+			</form>
+			<p id="close">x</p>
+		</div>
+	</body>
+</html>
